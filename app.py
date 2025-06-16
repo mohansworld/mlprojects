@@ -109,13 +109,13 @@ with right_col:
         st.subheader("Predicted Price")
         st.write(f"${prediction[0]:,.2f}")
  # Footer
-    st.markdown("---", unsafe_allow_html=True)
-    st.markdown(
-        """
-        <div style='text-align: center;'>
-            <strong>Made by <a href='https://www.linkedin.com/in/rajat-kumar-sahu1/' target='_blank'>Rajat Kumar Sahu</a></strong><br>
-            📧 <a href='mailto:rajatks1997@gmail.com'>rajatks1997@gmail.com</a>
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
+st.markdown("---", unsafe_allow_html=True)
+st.markdown(
+    """
+    <div style='text-align: center;'>
+        <strong>Made by <a href='https://www.linkedin.com/in/rajat-kumar-sahu1/' target='_blank'>Rajat Kumar Sahu</a></strong><br>
+        📧 <a href='mailto:rajatks1997@gmail.com'>rajatks1997@gmail.com</a>
+    </div>
+    """,
+    unsafe_allow_html=True
+    
